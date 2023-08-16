@@ -1,0 +1,93 @@
+.scroll{
+    overflow: hidden;
+}
+.form-reserv{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+#titre-reserv{
+    margin-left: 100px;
+}
+.form-reserv #form{
+    width: 70%;
+    height: 600px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#form .champ-left{
+    flex: 2;
+    height: 550px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.champ-rigth{
+    flex: 2;
+    height: 550px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    width: 80%;
+    height: 70px;
+    border: 1px solid rgb(197, 197, 197);
+    padding: 0px 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    outline: none;
+    border-radius: 7px;
+}
+select{
+    width: 89%;
+    height: 70px;
+    border: 1px solid rgb(197, 197, 197);
+    padding-left: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    outline: none;
+    border-radius: 7px;
+}
+textarea{
+    width: 84%;
+    height: 150px;
+    border: 1px solid rgb(197, 197, 197);
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    outline: none;
+    border-radius: 7px;
+}
+#btn{
+    width: 250px;
+    padding: 15px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--color-blue);
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin-left: 100px;
+    transition: all .5s ease;
+}
+#btn:hover{
+    background-color: var(--color-blue-fonse);
+}

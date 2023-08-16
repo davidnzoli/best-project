@@ -1,0 +1,120 @@
+.glob-program{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.glob-program .glob-program-el{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.glob-program-el #titre-program{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 2px;
+}
+.glob-program-el .one-section-program{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.one-section-program .liste-jour-voyage{
+    width: 100%;
+    height: 550px;
+    padding: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid var(--color-gray);
+    border-radius: 20px;
+}
+.liste-jour-voyage #some-texte-present{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.deux-listes-flex{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.deux-listes-flex #ul-listes-jour{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+#ul-listes-jour #list-jour{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 1px;
+}
+.one-section-program .some-texte-reservation-click {
+    width:90%;
+    height: 550px;
+    padding: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    border: 1px solid var(--color-gray);
+    border-radius: 20px;
+}
+.one-section-program #para-info-reservation{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 1px;
+}
+#para-info-reservation #link-reserv{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.two-section-program {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.two-section-program > table{
+    width: 90%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 5px solid red;
+}
+tr:nth-child(odd){
+    background-color: rgb(233, 233, 233);
+}
+th{
+    border-left: 1px solid red;
+    border-bottom: 5px solid red;
+    padding:10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+td {
+    border-left: 1px solid red;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 500;
+}

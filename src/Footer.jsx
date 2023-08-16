@@ -4,6 +4,12 @@ import { NavLink } from "react-router-dom";
 
 const Footer = ({table}) =>{
     return <React.Fragment>
+        <div className="tree-glob">
+            <h1 id="titre-agence">
+                Agence de goma <small><a href="#">accueil-maps</a></small>
+            </h1>
+        </div>
+        
         <div className="global-footer">
             <div className="one-footer">
             <div className="left-glob">

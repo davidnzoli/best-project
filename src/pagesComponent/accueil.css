@@ -6,7 +6,7 @@
     justify-content: space-between;
     gap: 20px;
 }
-.some-texte{
+.some-texte-one{
     flex: 2;
     margin-left: 70px;
     display: flex;
@@ -188,10 +188,10 @@
     border-radius: 5px;
     cursor: pointer;
 }
-#btn:hover{
+#btn-link-two:hover{
     color: white;
 }
-#btn{
+#btn-link-two{
     text-decoration: none;
     font-size: 23px;
     font-weight: 600;
@@ -203,23 +203,3 @@
 
 /*troisieme section */
 
-.tree-glob{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    border-bottom: 1px solid var(--color-blue);
-}
-.tree-glob #titre-agence{
-    font-size: 60px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: var(--color-blue);
-    margin-left: 70px;
-}
-#titre-agence small a{
-    font-size: 18px;
-    text-decoration: none;
-    color: var(--color-blue);
-}

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Accueil = () => {
     return <React.Fragment>
         <div className="one-blog">
-            <div className="some-texte">
+            <div className="some-texte-one">
                 <h1 id="titre-accueil">Voyagez dans des bonnes conditions</h1>
                 <p id="para-accueil">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
@@ -60,18 +60,14 @@ const Accueil = () => {
                     quia praesentium voluptatum recusandae
                 </p>
                 <div className="btn-link">
-                    <button><NavLink to='/reservation' id='btn'>Résérvez</NavLink></button>
-                    <button><NavLink to='/program' id='btn'>Voir le programes</NavLink></button>
+                    <button><NavLink to='/reservation' id='btn-link-two'>Résérvez</NavLink></button>
+                    <button><NavLink to='/program' id='btn-link-two'>Voir le programes</NavLink></button>
                 </div>
             </div>
         </div>
         <div className="glog-stark"><img src="./img-p.jpg" id="stark-two" alt="" /></div>
         </div>
-        <div className="tree-glob">
-            <h1 id="titre-agence">
-                Agence de goma <small><a href="#">accueil-maps</a></small>
-            </h1>
-        </div>
+        
     </React.Fragment>
 }
 

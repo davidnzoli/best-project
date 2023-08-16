@@ -3,7 +3,7 @@
   --color-gray : gray;
   --color-blue : rgb(1, 148, 247);
   --color-blue-fonse : rgb(44, 56, 218);
-  --color-black : #0000;
+  --color-black : black;
 }
 body {
   margin: 0px;

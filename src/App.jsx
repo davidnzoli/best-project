@@ -1,11 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Accueil from "./pagesComponent/Accueil";
-import Bus from "./pagesComponent/Bus";
+
 import Reserv from "./pagesComponent/Reserv";
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { tabChemin } from './components/chemin';
+import Program from './pagesComponent/Program';
+
 
 
 function App() {
@@ -15,8 +17,9 @@ function App() {
       <Navbar/>
       <Routes>
           <Route path='/' element={<Accueil />} />
+          <Route path='/program' element={<Program />} />
           <Route path='/reservation' element={<Reserv />} />
-          <Route path='/bus' element={<Bus />} />
+          
       </Routes>
       <Footer table={tabChemin}/>
     </BrowserRouter>

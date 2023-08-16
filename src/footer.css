@@ -1,3 +1,27 @@
+.tree-glob{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    border-bottom: 1px solid var(--color-blue);
+    border-top: 1px solid rgb(214, 212, 212);
+}
+.tree-glob #titre-agence{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--color-blue);
+    margin-left: 70px;
+}
+#titre-agence small a{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--color-blue);
+}
+
+/* Footer */
+
 .global-footer{
     width: 100%;
     height: 50vh;

@@ -1,0 +1,117 @@
+.glob-form-stark{
+    width: 100%;
+    height: 94vh;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65, 64, 64);
+}
+.glob-payement{
+    width: 80%;
+    height: 690px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-blue);
+    border-radius: 50px;
+    position: relative;
+}
+.glob-payement .glob-form{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 80px;
+}
+.some-texte{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 50px;
+}
+.some-texte .deux-listes-flex{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.deux-listes-flex #ul-listes-jour{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+#ul-listes-jour #list-jour{
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+    letter-spacing: 1px;
+}
+.some-texte #para-info-reservation{
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+    letter-spacing: 1px;
+}
+#form-payement{
+    flex: 2;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+#titre-payement{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#button-valider{
+    width: 250px;
+    padding: 15px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--color-blue);
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+#button-valider:hover{
+    background-color: var(--color-blue-fonse);
+}
+#button-fermer:hover{
+    background-color: red;
+}
+#button-fermer{
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+    width: 100px;
+    padding: 13px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+    font-weight: 600;
+    color: white;
+    background-color: rgba(235, 4, 4, 0.76);
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: all .5s ease;
+}
