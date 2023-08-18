@@ -1,14 +1,15 @@
 import React from "react";
 import './formPayement.css';
 import { useDispatch, useSelector } from "react-redux";
-import Reserv from "../pagesComponent/Reserv";
-
 
 const FormPayement = (props) =>{
 
     const state = useSelector((state) => state.reducer);
     const dispatch = useDispatch();
-    return (state) ? (
+    const desact = ()=>{
+        return dispatch({type:"affichePopup/desaffichage"});
+    }
+    return (!state) ? (
         <div className="glob-form-stark">
             <div className="glob-payement">
             <div className="glob-form">
@@ -59,7 +60,7 @@ const FormPayement = (props) =>{
                 </form>
             </div> 
         </div>
-            <button id="button-fermer" onClick={()=>state}>Fermer</button>
+            <button id="button-fermer" onClick={()=>desact()}>Fermer</button>
         </div>
         ) : ''
 }

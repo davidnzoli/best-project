@@ -2,6 +2,6 @@ import { combineReducers } from "redux";
 
 const combinaison = combineReducers({
     affichage,
-    desaffiche,
+    desaffichage,
 })
 export default combinaison;

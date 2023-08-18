@@ -1,6 +1,5 @@
 import React from "react";
 import './reserv.css';
-import { useState } from "react";
 import FormPayement from "../components/FormPayement";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -11,9 +10,7 @@ const Reserv = () => {
     const dispatch = useDispatch();
 
     const change=()=>{
-        return dispatch({type:"affichePopup/desaffiche",
-        payload:<FormPayement />
-    });
+        return dispatch({type:"affichePopup/affichage"});
     }
 
     if(!state){

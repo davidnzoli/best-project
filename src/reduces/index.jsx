@@ -1,14 +1,18 @@
 import { createSlice } from "@reduxjs/toolkit"
 
+const initialState={state:false}
+
 const creationSlice = createSlice({
     name: "affichePopup",
-    initialState: {state:false},
+    initialState,
     reducers:{
         affichage:(state, action)=>{
-            return state;
-        },
-        desaffiche:(state, action)=>{
             return !state;
+        },
+        desaffichage:(state, action)=>{
+            return {
+                state:true,
+            };
         }
     }
 })
